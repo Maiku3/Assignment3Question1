@@ -35,16 +35,16 @@ def deleteStudent(student_id):
     conn.commit()
 
 # Test the functions
-# print("All students:")
-# getAllStudents()
+print("All students:")
+getAllStudents()
 
-# addStudent("Mike", "Lin", "mikelin@cmail.carleton.ca", "2021-09-01")
-# print("\nAfter adding new student:")
-# getAllStudents()
+addStudent("Mike", "Lin", "mikelin@cmail.carleton.ca", "2021-09-01")
+print("\nAfter adding new student:")
+getAllStudents()
 
-# updateStudentEmail(3, 'new.jim@example.com')
-# print("\nAfter updating Jim's email:")
-# getAllStudents()
+updateStudentEmail(3, 'new.jim@example.com')
+print("\nAfter updating Jim's email:")
+getAllStudents()
 
 deleteStudent(3)
 print("\nAfter deleting Jim:")
